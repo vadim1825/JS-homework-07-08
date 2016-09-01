@@ -55,11 +55,6 @@ $tName.hover(function() {
  		opacity: 0
  	}, 500)
  });
-/*
-//$fName.on('mouseenter mouseleave', function() {
-	//$fInput.css("opacity", 100).fadeIn(1000).fadeOut(1000);
-//});
-*/
 
 $fName.on('focusin', function() {
 
