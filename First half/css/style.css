@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #ddd;
+	height: 100%;
+}
+
+.scroll {
+	overflow-y: scroll;
+}
+
+.window {
+	background: white;
+	height: 400px;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 1px solid black;
+	padding: 10px 10px 0px 10px;
+}
+
+.flexWindow {
+	background: white;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 3px 3px 0px 3px;
+}
+
+.grayWindow {
+    height: 34px;
+    border-radius: 3px;
+    background: #ccc;
+    padding: 5px 5px 0px 5px;
+    overflow: hidden;
+}
+
+input {
+	background: #eee;
+	font-size: 16px;
+	padding: 7px 20px;
+	border-bottom: 0;
+	border-radius: 2px;
+	border-style: none;
+}
+
+input:hover {
+	background: #ddd;
+	cursor: pointer;
+}
+
+p {
+	padding: 20px;
+}
+
+.invisible {
+	display: none;
+}
+
+.blue_button {
+	background: blue;
+	color: white;
+	border: 1px solid black;
+	cursor: none;
+}
+
+.blue_button:hover {
+	cursor: text;
+	background: blue;
+}

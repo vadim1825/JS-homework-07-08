@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: #ccc;
+}
+
+.container {
+	height: 400px;
+	width: 600px;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 10px;
+	background: white;
+}
+
+.wrapper {
+	height: 130px;
+	width: 576px;
+	border: 2px solid grey;
+	padding: 5px 10px;
+	position: relative;
+}
+
+.fcell,
+.scell {
+	margin-bottom: 25px;
+}
+
+.fname {
+	margin-left: 15px;
+}
+
+.sname {
+	margin-left: 16px;
+}
+
+.tname {
+	margin-left: 26px;
+}
+
+span {
+    padding: 3px;
+	width: 190px;
+	display: inline-block;
+	border-radius: 3px;
+	box-shadow:  0px 0px 5px 2px gray;
+}
+
+.ftooltip {
+    position: absolute;
+    top: 3px;
+    left: 270px;
+}
+
+.stooltip {
+	position: absolute;
+    top: 48px;
+    left: 270px;
+}
+
+.ttooltip {
+	position: absolute;
+    top: 93px;
+    left: 270px;
+}
+
+button {
+	padding: 7px;
+	border-style: none;
+	border-radius: 3px;
+	background: #eee;
+}
+
+button:hover {
+   background: #ddd;
+   cursor: pointer;
+}
+
+button:active {
+	background: blue;
+	color: white;
+}
+
+.invisible {
+	opacity: 0;
+}
